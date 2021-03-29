@@ -29,7 +29,7 @@ mkdir -p ~/workspace &&
 If you're setting up a development machine choose which languages and tools to install:
 
 #### For Direct developers (remove unnecessary languages when running command)
-`./setup.sh direct-dev aws ruby python docker oh-my-zsh snowflake terraform`
+`./setup.sh direct-dev aws ruby python docker mysql oh-my-zsh snowflake terraform`
 
 (and possibly `rxrevu_web_app_yml_symlink`)
 
