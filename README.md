@@ -72,6 +72,10 @@ Navigate to `workstation-setup/files/rm_settings.zip` and select `rm_settings.zi
 
 Select all the settings and hit `Ok`, RubyMine will then prompt you to restart (it is wise to do so).
 
+### GitHub SSH Setup
+
+While this repository is public and can be cloned with HTTPS, most of the repos at RxRevu are not. You will want to [set up SSH and connect it to GitHub](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) so that you can clone with SSH.
+
 ### AWS Credential Setup
 **Note:** Requires staging/prod and sandbox AWS credentials
 Change `aws_access_key_id`s and `aws_secret_access_key`s in 
