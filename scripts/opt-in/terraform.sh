@@ -1,7 +1,7 @@
 echo
 echo "Installing Terraform tooling"
 
-brew install tfenv tgenv
+brew install tfenv tgenv tflint
 tfenv install "${DEFAULT_TF_VERSION}"
 tgenv install "${DEFAULT_TG_VERSION}"
 
