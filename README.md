@@ -48,6 +48,9 @@ Optional but recommended:
 #### For Scout developers
 `./setup.sh aws java16 docker flycut rectangle yarn node16`
 
+#### For MX developers
+`./setup.sh aws java16 docker flycut rectangle yarn node16 terraform`
+
 Additional options can be installed later by running:
 
 `./add_setup.sh <list of opt-in items to install>`
