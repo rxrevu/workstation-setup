@@ -7,8 +7,8 @@ alias ga='git add '
 alias gb='git branch '
 alias gc='git commit'
 alias gd='git diff'
-alias gco='git checkout $@'
-alias gcm='git commit -m $@'
+gco() { git checkout "$@"; }
+gcm() { git commit -m "$@"; }
 alias ll='ls -l'
 alias gl='git lg'
 alias gri='git rebase -i'
