@@ -1,10 +1,6 @@
 {
   "coauthors": {
-    "aa": {
-      "name": "Adrian Avila",
-      "email": "adrian.avila@arrivehealth.com"
-    },
-    "ab": {
+   "ab": {
       "name": "Anna Baer",
       "email": "anna.baer@arrivehealth.com"
     },
@@ -12,11 +8,7 @@
       "name": "Andrew Courter",
       "email": "andrew.courter@arrivehealth.com"
     },
-    "atc": {
-      "name": "Antonio Carter",
-      "email": "antonio.carter@arrivehealth.com"
-    },
-    "al": {
+   "al": {
       "name": "Anna Lewis",
       "email": "anna.lewis@arrivehealth.com"
     },
@@ -24,19 +16,11 @@
       "name": "Alex Terletskiy",
       "email": "alex.terletskiy@arrivehealth.com"
     },
-    "cd": {
-      "name": "Corey Downing",
-      "email": "corey.downing@arrivehealth.com"
-    },
-    "cl": {
+   "cl": {
       "name": "Craig Livorsi",
       "email": "craig.livorsi@arrivehealth.com"
     },
-    "df": {
-      "name": "Dyan Fedde",
-      "email": "dyan.fedde+github@arrivehealth.com"
-    },
-    "dk": {
+   "dk": {
       "name": "Daniel Keeney",
       "email": "daniel.keeney@arrivehealth.com"
     },
@@ -52,11 +36,7 @@
       "name": "Ed Kerns",
       "email": "blauentag@gmail.com"
     },
-    "es": {
-      "name": "Evan Sailer",
-      "email": "evan.sailer@arrivehealth.com"
-    },
-    "iip": {
+   "iip": {
       "name": "Iain Irwin-Powell",
       "email": "iain.irwin-powell@arrivehealth.com"
     },
@@ -64,19 +44,7 @@
       "name": "Jared Cross",
       "email": "jared.cross@arrivehealth.com"
     },
-    "jh": {
-      "name": "Jim Hantz",
-      "email": "james.hantz@arrivehealth.com"
-    },
-    "jr": {
-      "name": "John Roemer",
-      "email": "john.roemer@arrivehealth.com"
-    },
-    "jre": {
-      "name": "John Reiter",
-      "email": "john.reiter@arrivehealth.com"
-    },
-    "jt": {
+   "jt": {
       "name": "Jeff Turley",
       "email": "jeff.turley@arrivehealth.com"
     },
@@ -84,15 +52,7 @@
       "name": "Kyle Campbell",
       "email": "kyle.campbell@arrivehealth.com"
     },
-    "ks": {
-      "name": "Kenny Storms",
-      "email": "kenny.storms@arrivehealth.com"
-    },
-    "ml": {
-      "name": "Mike Levin",
-      "email": "mike.levin@arrivehealth.com"
-    },
-    "mo": {
+   "mo": {
       "name": "Matt Odille",
       "email": "matt.odille@arrivehealth.com"
     },
@@ -100,13 +60,9 @@
       "name": "Phil Goodwin",
       "email": "phil.goodwin@arrivehealth.com"
     },
-   "rl": {
-    "name": "Ritchie Latimore",
-    "email": "ritchie.latimore@arrivehealth.com"
-   },
-    "sc": {
-     "name": "Shane Chesnutt",
-     "email": "shane.chesnutt@arrivehealth.com"
+    "rl": {
+      "name": "Ritchie Latimore",
+      "email": "ritchie.latimore@arrivehealth.com"
     }
-  }
+ }
 }
