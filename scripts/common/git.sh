@@ -17,8 +17,8 @@ brew install --cask gitup
 set -e
 
 echo
-echo "Putting a sample git-coauthors file in ~/.git-coauthors"
-cp files/.git-coauthors ~/.git-coauthors
+echo "Symlink to git-coauthors file in ~/.git-coauthors"
+ln -s ${WORKSTATION_SETUP_HOME}/files/.git-coauthors ~/.git-coauthors
 
 echo
 echo "Setting global Git configurations"
