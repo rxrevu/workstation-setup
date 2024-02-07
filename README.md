@@ -1,5 +1,3 @@
->**todo**: Use environment to specify workspace directory
-
 # Workstation Setup
 
 This project automates the process of setting up a new RxRevu machine using a simple [Bash](https://www.gnu.org/software/bash/) script.

@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
 echo
 echo "Installing Ruby tools and Ruby"
@@ -35,6 +35,6 @@ gem install license_finder
 brew install --cask rubymine --force
 
 source "${WORKSTATION_SETUP_HOME}/scripts/common/download-pivotal-ide-prefs.sh"
-pushd ~/workspace/pivotal_ide_prefs/cli
-./bin/ide_prefs install --ide=rubymine
+pushd ./jetbrains-ide-prefs
+./cli/bin/ide_prefs install --ide=rubymine
 popd
