@@ -1,8 +1,13 @@
 echo
 echo "Installing most recent version of NodeJS"
 
-brew install fnm
-fnm completions --shell zsh
-echo 'eval "$(fnm env --use-on-cd)"' >> ~/.zshrc
-fnm install --lts
-
+nodejs_version="${DEFAULT_NODEJS_VERSION}"
+if (! asdf list nodejs) && asdf list nodejs | grep -q "${nodejs_version}" ; then
+  echo "Installing node@${nodejs_version}"
+  asdf plugin add nodejs || true
+  bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+  asdf install nodejs "${nodejs_version}"
+  asdf global nodejs "${nodejs_version}"
+else
+  echo 'node@${nodejs_version} already installed'
+fi

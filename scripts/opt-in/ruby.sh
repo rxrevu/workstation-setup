@@ -2,19 +2,27 @@
 
 echo
 echo "Installing Ruby tools and Ruby"
+cp files/.irbrc ~/.irbrc
+brew install readline
 
 # Install ruby-install and use it to update to the desired Ruby version
 ruby_version="$DEFAULT_RUBY_VERSION"
 
-brew install frum
+brew install ruby-install
 
-if ! [[ $(ls ~/.frum/versions) == *"${ruby_version}"* ]]; then
+if ! [[ $(ls ~/.rubies) == *"${ruby_version}"* ]]; then
   echo "Installing Ruby ${ruby_version}"
-  frum install "${ruby_version}" --with-zlib-dir=$(brew --prefix zlib) --with-openssl-dir=$(brew --prefix openssl@3) --with-readline-dir=$(brew --prefix readline) --with-libyaml-dir=$(brew --prefix libyaml)
-  frum global "${ruby_version}"
+  ruby-install "ruby-${ruby_version}"
 else
   echo "Ruby ${ruby_version} already installed"
 fi
+
+brew install chruby
+{
+  printf "%s\\n" "# Chruby Setup"
+  printf "%s\\n" "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh"
+  printf "%s\\n" "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" 
+} >> ~/.zprofile
 
 # Bundler configuration for native gems requiring brewed libraries
 gem install bundler
